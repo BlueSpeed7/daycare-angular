@@ -8,7 +8,7 @@ import 'rxjs/add/operator/catch'
 
 import {Creche} from './creche/creche.model'
 
-import {DAYCARE} from 'app.js'
+import {DAYCARE} from './app.api'
 import {ErrorHandler} from '../app.error-handler'
 
 
