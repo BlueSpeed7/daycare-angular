@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, 'dist')));
 
-app.get('*', (req, res) => {
+app.get('https://my-json-server.typicode.com/BlueSpeed7/daycare-angular/db', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist/index.html'))
 });
 
